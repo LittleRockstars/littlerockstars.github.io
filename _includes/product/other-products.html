@@ -1,0 +1,24 @@
+<hr />
+<div class="container">
+    <h2>We have similar items available ...</h2>
+    <div class="row">
+
+        {% for product in site.products %}
+        {% if (include.productId) != product.id %}
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid6">
+                <div class="product-image6">
+                    <a href="{{ product.ebay-url }}">
+                        <img class="pic-1" src="{{ product.image-url }}" />
+                    </a>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="{{ product.ebay-url }}">{{ product.name }}</a></h3>
+                    <div class="price">{{ product.price }}</div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>

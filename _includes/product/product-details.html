@@ -1,0 +1,78 @@
+{% assign description = (include.description) %}
+{% assign size-description = (include.size-description) %}
+{% assign colour-description = (include.colour-description) %}
+{% assign image1 = (include.image1) %}
+{% assign image2 = (include.image2) %}
+
+<div class="product-details">
+    <div class="container padding">
+        <div class="col-12 col-md-12">
+            <div typeof="Product" vocab="https://schema.org/">
+                <p>
+                    <span property="description">
+                        {{ description }}
+                    </span>
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="col-sm">
+                    <img alt="Image" class="mx-auto d-block img-fluid image-padding" src="{{ image1 }}" title="" />
+                </div>
+                <div class="col-sm">
+                    <img alt="Image" class="mx-auto d-block img-fluid image-padding" src="{{ image2}}" title="" />
+                </div>
+            </div>
+
+            <div class="col-12 col-md-12 padding">
+                <p>
+                    {{ size-description }}
+                    Don't see a colour you want, contact us to see what's available.
+                </p>
+                <ul>
+                    <li>
+                        <b>Colours available:</b> {{ colour-description }}
+                    </li>
+                    <li>
+                        <b>Quality:</b> Material composition: 100% Cotton. Premium quality garment ethically produced
+                        kids
+                        clothing.
+                    </li>
+                    <li>
+                        <b>Garment Care:</b> Machine Washable at 40 Degrees, Tumble Dry on low, Iron inside out.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <h4>Packaging & Free Shipping</h4>
+                <p>
+                    We package all our items carefully to ensure they arrive safely. Please contact us if you have
+                    questions
+                    about packaging standards. We will ship all orders within 2 business days of payment.
+                </p>
+
+                <h4>Delivery</h4>
+                <p>
+                    We typically ship according to the following criteria:
+                    Weight Shipper Service Delivery Time
+                    n/a Royal Mail 2nd Class Package 2-3 business days*
+                    *delivery times are after handling. Times determined by carrier and are subject to change.
+                    We ship all post via Royal Mail. Check shipping tab for exact details.
+                </p>
+
+                <h4>Our Returns Policy</h4>
+                <p>
+                    All of our items are backed by eBay's 30-day return policy. Buyer is responsible for return
+                    shipping.
+                </p>
+
+                <h4>Give Us FeedBack</h4>
+                <p>
+                    We take our reputation seriously. If you are unsatisfied by your order, please contact us
+                    and we will work
+                    with you to resolve it to your satisfaction.
+                </p>
+            </div>
+        </div>
+    </div>
