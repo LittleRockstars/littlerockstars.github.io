@@ -5,11 +5,13 @@
 
         {% for product in site.products %}
         {% if (include.productId) != product.id %}
+        {% assign image = (product.image-url) | absolute_url %}
+
         <div class="col-md-3 col-sm-6">
             <div class="product-grid6">
                 <div class="product-image6">
                     <a href="{{ product.ebay-url }}">
-                        <img class="pic-1" src="{{ product.image-url }}" />
+                        <img class="pic-1" src="{{ image }}" />
                     </a>
                 </div>
                 <div class="product-content">

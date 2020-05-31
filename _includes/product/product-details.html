@@ -1,8 +1,9 @@
 {% assign description = (include.description) %}
 {% assign size-description = (include.size-description) %}
 {% assign colour-description = (include.colour-description) %}
-{% assign image1 = (include.image1) %}
-{% assign image2 = (include.image2) %}
+{% assign image1 = (include.image1) | absolute_url %}
+{% assign image2 = (include.image2) | absolute_url %}
+
 
 <div class="product-details">
     <div class="container padding">
