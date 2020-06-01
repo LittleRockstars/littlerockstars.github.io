@@ -20,34 +20,43 @@
 
             <div class="row">
                 <div class="col-sm">
-                    <img alt="Image" class="mx-auto d-block img-fluid image-padding" src="{{ image1 }}" title="" />
+                    <img alt="Image" class="mx-auto d-block img-fluid image-padding" src="{{ image1 }}" />
                 </div>
                 <div class="col-sm">
-                    <img alt="Image" class="mx-auto d-block img-fluid image-padding" src="{{ image2 }}" title="" />
+                    <img alt="Image" class="mx-auto d-block img-fluid image-padding" src="{{ image2 }}" />
                 </div>
             </div>
 
-            <div class="col-12 col-md-12 padding">
+            <div class="col-12 col-md-12 top-padding">
                 <p>
                     {{ size-description }}
                     Don't see a colour you want, <a href="{{ contact }}"> contact us </a> to see what's available.
                 </p>
-                <ul>
-                    <li>
-                        <b>Colours available:</b> {{ colour-description }}
-                    </li>
-                    <li>
-                        <b>Quality:</b> Material composition: 100% Cotton. Premium quality garment ethically produced
-                        kids
-                        clothing.
-                    </li>
-                    <li>
-                        <b>Garment Care:</b> Machine Washable at 40 Degrees, Tumble Dry on low, Iron inside out.
-                    </li>
-                </ul>
             </div>
 
-            <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <img class="img-fluid" src="/assets/images/products/folded-image.jpg" />
+                </div>
+                <div class="col-md-8 col-sm-8" style="padding-top: 100px;">
+                    <ul>
+                        <li>
+                            <b>Colours available:</b> {{ colour-description }}
+                        </li>
+                        <li>
+                            <b>Material:</b> Material composition: 100% Cotton.
+                        </li>
+                        <li>
+                            <b>Quality:</b>Premium quality garment ethically produced kids clothing.
+                        </li>
+                        <li>
+                            <b>Garment Care:</b> Machine Washable at 40 Degrees, Tumble Dry on low, Iron inside out.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container padding">
                 <h4>Packaging & Free Shipping</h4>
                 <p>
                     We package all our items carefully to ensure they arrive safely. Please contact us if you have

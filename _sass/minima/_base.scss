@@ -26,11 +26,26 @@ h3.h3 {
   padding-bottom: 20px;
 }
 
+
+.span4 img {
+  margin-right: 10px;
+}
+.span4 .img-left {
+  float: left;
+}
+.span4 .img-right {
+  float: right;
+}
+
 /***** product details ******/
 
 
 .product-details .padding {
-  padding: 40px 0 40px 0;
+  padding: 40px 0 0 0;
+}
+
+.product-details .top-padding {
+  padding: 20px 0 0 0;
 }
 
 .size-guide .table-padding {
