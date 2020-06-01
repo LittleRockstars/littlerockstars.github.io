@@ -3,6 +3,8 @@
 {% assign colour-description = (include.colour-description) %}
 {% assign image1 = (include.image1) | absolute_url %}
 {% assign image2 = (include.image2) | absolute_url %}
+{% assign contact = 'https://www.ebay.co.uk/contact/sendmsg?&recipient=littlerockstarsclothing&message_type_id=14' %}
+{% assign feedback = 'https://www.ebay.co.uk/fdbk/feedback_profile/littlerockstarsclothing' %}
 
 
 <div class="product-details">
@@ -28,7 +30,7 @@
             <div class="col-12 col-md-12 padding">
                 <p>
                     {{ size-description }}
-                    Don't see a colour you want, contact us to see what's available.
+                    Don't see a colour you want, <a href="{{ contact }}"> contact us </a> to see what's available.
                 </p>
                 <ul>
                     <li>
@@ -73,7 +75,7 @@
 
                 <h4>Give Us FeedBack</h4>
                 <p>
-                    If you like our products, supports us by giving feedback.
+                    If you like our products, supports us by giving <a href="{{ feedback }}">feedback</a>.
                     We take our reputation seriously. If you are unsatisfied by your order, please contact us
                     and we will work with you to resolve it to your satisfaction.
                 </p>
