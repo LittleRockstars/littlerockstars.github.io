@@ -3,6 +3,7 @@
 {% assign colour-description = (include.colour-description) %}
 {% assign image1 = (include.image1) | absolute_url %}
 {% assign image2 = (include.image2) | absolute_url %}
+{% assign alt = (include.alt) %}
 {% assign contact = 'https://www.ebay.co.uk/contact/sendmsg?&recipient=littlerockstarsclothing&message_type_id=14' %}
 {% assign feedback = 'https://www.ebay.co.uk/fdbk/feedback_profile/littlerockstarsclothing' %}
 
@@ -18,14 +19,23 @@
                 </p>
             </div>
 
+            {% if image2 == null %}
             <div class="row">
                 <div class="col-sm">
-                    <img alt="Image" class="mx-auto d-block img-fluid image-padding" src="{{ image1 }}" />
-                </div>
-                <div class="col-sm">
-                    <img alt="Image" class="mx-auto d-block img-fluid image-padding" src="{{ image2 }}" />
+                    <img style="width: 80%;" alt="{{ alt }}" class="mx-auto d-block img-fluid image-padding"
+                        src="{{ image1 }}" />
                 </div>
             </div>
+            {% else %}
+            <div class="row">
+                <div class="col-sm">
+                    <img alt="{{ alt }}" class="mx-auto d-block img-fluid image-padding" src="{{ image1 }}" />
+                </div>
+                <div class="col-sm">
+                    <img alt="{{ alt }}" class="mx-auto d-block img-fluid image-padding" src="{{ image2 }}" />
+                </div>
+            </div>
+            {% endif %}
 
             <div class="col-12 col-md-12 top-padding">
                 <p>
@@ -36,7 +46,8 @@
 
             <div class="row">
                 <div class="col-md-4 col-sm-4">
-                    <img class="img-fluid" src="/assets/images/products/folded-image.jpg" />
+                    <img alt="little rockstars - free shipping and quality stock" class="img-fluid"
+                        src="/assets/images/products/folded-image.jpg" />
                 </div>
                 <div class="col-md-8 col-sm-8" style="padding-top: 100px;">
                     <ul>

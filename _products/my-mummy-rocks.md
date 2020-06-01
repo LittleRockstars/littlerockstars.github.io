@@ -1,5 +1,5 @@
 ---
-id: mummy-rocks
+id: my-mummy-rocks
 name: My Mummy Rocks
 price: £6.95
 image-url: /assets/images/products/mummy-rocks.jpg
