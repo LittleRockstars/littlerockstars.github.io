@@ -1,5 +1,7 @@
 ---
+order: 4
 id: my-mummy-rocks
+tag: 'skulls'
 name: My Mummy Rocks
 price: £6.95
 image-url: /assets/images/products/mummy-rocks.jpg

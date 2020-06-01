@@ -7,6 +7,7 @@ image1: '/assets/images/products/mummy-rocks.jpg'
 size-description: 'Sizes to fit ages from 2-3 years. Sizes 2-3 years, 3-4 years, 5-6 years, 7-8 years'
 colour-description: 'black quality t-shirt and with rose glitter roses.'
 alt: 'my mummy rocks perfect glitterly t-shirt for mothers day and birthday presents'
+tag: 'skulls'
 ---
 
 {% include product/logo.html%}
@@ -20,6 +21,7 @@ alt: 'my mummy rocks perfect glitterly t-shirt for mothers day and birthday pres
     size-description = page.size-description
     colour-description = page.colour-description
     alt = page.alt
+    tag = page.tag
 %}
 
 {% include product/product-table1.html%}

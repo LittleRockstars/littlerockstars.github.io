@@ -1,5 +1,7 @@
 ---
+order: 2
 id: girls-rock
+tag: 'skulls'
 name: Girls Rock Skull T-Shirt
 price: £7.95
 image-url: /assets/images/products/girls-rock.jpg

@@ -1,5 +1,7 @@
 ---
+order: 3
 id: this-girl-rocks
+tag: 'skulls'
 name: This Girl Rocks Glitter Skull T-Shirt
 price: £7.95
 image-url: /assets/images/products/this-girl-rocks-purple.jpg

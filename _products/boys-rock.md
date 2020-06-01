@@ -1,5 +1,7 @@
 ---
+order: 1
 id: boys-rock
+tag: 'skulls'
 name: Boys Rock Skull T-Shirt
 price: £5.95
 image-url: /assets/images/products/boys-rock-black.jpg

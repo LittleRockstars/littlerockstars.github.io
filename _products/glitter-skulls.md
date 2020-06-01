@@ -1,5 +1,7 @@
 ---
+order: 5
 id: glitter-skulls
+tag: 'skulls'
 name: Glitter Skulls and Bows T-Shirt
 price: £7.95
 image-url: /assets/images/products/glitter-skulls-coloured-bows.jpg
