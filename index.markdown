@@ -5,7 +5,7 @@ description: 'Little Rockstars presents an awesome Girls Rock T-Shirt for music 
 image1: '/assets/images/products/girls-rock.jpg'
 image2: '/assets/images/products/folded-image.jpg'
 size-description: 'Sizes to fit all ages up to 13 years. Sizes 1-2 years , 3-4 years, 5-6 years, 7-8 years, 9-11 years, 12-13 years.'
-color-description: 'black, purple, pink, red and white quality t-shirt and with glitter lettering.'
+colour-description: 'black, purple, pink, red and white quality t-shirt and with glitter lettering.'
 ---
 
 {% include product/logo.html%}
