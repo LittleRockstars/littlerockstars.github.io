@@ -3,6 +3,7 @@
 {% assign colour-description = (include.colour-description) %}
 {% assign image1 = (include.image1) | absolute_url %}
 {% assign image2 = (include.image2) | absolute_url %}
+{% assign folded = "/assets/images/products/folded-image.jpg" | absolute_url %}
 {% assign alt = (include.alt) %}
 {% assign contact = 'https://www.ebay.co.uk/contact/sendmsg?&recipient=littlerockstarsclothing&message_type_id=14' %}
 {% assign feedback = 'https://www.ebay.co.uk/fdbk/feedback_profile/littlerockstarsclothing' %}
@@ -47,7 +48,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-4">
                     <img alt="little rockstars - free shipping and quality stock" class="img-fluid"
-                        src="/assets/images/products/folded-image.jpg" />
+                        src="{{ folded }}" />
                 </div>
                 <div class="col-md-8 col-sm-8" style="padding-top: 100px;">
                     <ul>
