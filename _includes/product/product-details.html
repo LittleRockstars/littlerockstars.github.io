@@ -1,13 +1,16 @@
-{% assign description = (include.description) %}
-{% assign size-description = (include.size-description) %}
-{% assign colour-description = (include.colour-description) %}
-{% assign image1 = (include.image1) | absolute_url %}
-{% assign image2 = (include.image2) | absolute_url %}
 {% assign folded = "/assets/images/products/folded-image.jpg" | absolute_url %}
-{% assign alt = (include.alt) %}
 {% assign contact = 'https://www.ebay.co.uk/contact/sendmsg?&recipient=littlerockstarsclothing&message_type_id=14' %}
 {% assign feedback = 'https://www.ebay.co.uk/fdbk/feedback_profile/littlerockstarsclothing' %}
 
+{% assign product = site.products | where: "id", page.id | first %}
+
+{% assign description = (product.description) %}
+{% assign size-description = (product.size-description) %}
+{% assign colour-description = (product.colour-description) %}
+{% assign image1 = (product.image1) | absolute_url %}
+{% assign image2 = (product.image2) | absolute_url %}
+{% assign alt = (product.alt) %}
+{% assign meta-keywords = (product.meta-keywords) %}
 
 <div class="product-details">
     <div class="container padding">
@@ -21,7 +24,7 @@
             </div>
 
             <ul style="display: none;">
-                {% assign keywords =  (include.meta-keywords) | split: ", " %}
+                {% assign keywords = meta-keywords | split: ", " %}
                 {% for keyword in keywords %}
                 <li>
                     {{ keyword }}

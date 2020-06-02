@@ -2,9 +2,16 @@
 order: 5
 id: glitter-skulls
 tag: 'skulls'
-name: Glitter Skulls and Bows T-Shirt
+brand: 'Little Rockstars'
+name: 'Girls Glitter Pink Skulls & Bows T-shirt'
 price: £7.95
-image-url: /assets/images/products/glitter-skulls-coloured-bows.jpg
+description: 'Little rockstars presents this cool Girls glitter skulls t-shirt with sparkly pink glitter skulls and bows, look awesome and turn heads at the party or rocking out at the school disco.'
+image1: '/assets/images/products/glitter-skulls-coloured-bows.jpg'
+size-description: 'Sizes to fit all ages up to 9-11 years. Sizes 1-2 years , 3-4 years, 5-6 years, 7-8 years and 9-11 years'
+colour-description: 'Black with pink glitter skulls and coloured bows'
+tag: 'skulls'
+meta-keywords: bikers, harley davidson, skulls, girls, cool, chopper, cute, little, lady, skull, lucky, outlaw, motorcycle, rider, pirate, rock, rocker, grunge, metal, punk, skater, skull and cross bones, girls skull t-shirt, girls skull tee, gigs, festivals, look cool, toddler, teen
+image-url: '/assets/images/products/glitter-skulls-coloured-bows.jpg'
 product-alt: 'Little rockstars girls glitter skulls t-shirt with sparkly pink glitter skulls and bows, look cool at the party or at the rocking out at the gig.'
-ebay-url: https://www.ebay.co.uk/itm/Kids-Girls-rock-glitter-pink-skulls-punk-heavy-metal-goth-music-festival-T-Shirt/313073850220?hash=item48e4a7d76c:m:mjgB6w7Kmk4XAl22u8zniMw&var=611783704787
+ebay-url: https://www.ebay.co.uk/itm/'Kids-Girls-rock-glitter-pink-skulls-punk-heavy-metal-goth-music-festival-T-Shirt/313073850220?hash=item48e4a7d76c:m:mjgB6w7Kmk4XAl22u8zniMw&var=611783704787
 ---

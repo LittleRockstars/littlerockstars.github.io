@@ -3,7 +3,7 @@
     <div class="row">
 
         {% for product in site.products %}
-        {% assign image = (product.image-url) | absolute_url %}
+        {% assign image = (product.image1) | absolute_url %}
         {% assign alt = (product.product-alt) %}
 
         <div class="col-md-3 col-sm-6">

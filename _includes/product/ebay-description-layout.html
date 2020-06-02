@@ -1,20 +1,9 @@
-{% include product/logo.html%}
+{% include product/logo.html %}
 
-{% include product/store-information.html%}
+{% include product/store-information.html %}
 
-{% include product/product-details.html
-    description = page.description
-    image1 = page.image1
-    image2 = page.image2
-    size-description = page.size-description
-    colour-description = page.colour-description
-    alt = page.alt
-    meta-keywords = page.meta-keywords
-%}
+{% include product/product-details.html %}
 
 {% include product/product-table1.html%}
 
-{% include product/other-products.html 
- productId = page.productId 
- tag = page.tag
-%}
+{% include product/other-products.html %}

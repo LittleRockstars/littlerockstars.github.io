@@ -1,6 +1,6 @@
 ---
 layout: page
-id: '/products/girls-rock'
+id: '/products/vinyl-retro-robot'
 ---
 
 {% include product/ebay-description-layout.html %}

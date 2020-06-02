@@ -2,9 +2,17 @@
 order: 9
 id: glitter-retro-robot
 tag: 'birthday'
+brand: 'Little Rockstars'
 name: 'Glitter retro robot T-shirt'
 price: £4.95
-image-url: '/assets/images/products/glitter-robot-black.jpg'
+description: 'Little rockstars presents a 50''s style silver glitter retro robot t-shirt for boys and girls, available in either fitted or standard sizes.'
+image1: '/assets/images/products/glitter-robot-black.jpg'
+image2: '/assets/images/products/glitter-robot-red.jpg'
+size-description: 'Sizes to fit all ages up to 7-8 years. 3-4 years, 5-6 years and 7-8 years.'
+colour-description: 'black, purple, blue, and red fitted or standard fit t-shirt and with glitter robot.'
+tag: 'robots'
+meta-keywords: kids, robot, toy, retro, 50''s style, glitter
 product-alt: 'Little rockstars - glitter retro robot'
 ebay-url: https://www.ebay.co.uk/itm/Kids-Boys-Girls-Vintage-Glitter-Toy-Retro-Robot-Fun-Sci-Fi-Science-Fair-T-Shirt/312744956111?hash=item48d10d50cf:m:m-xczdpGd2xPZY_Q6KLx1Og&var=611470120980
 ---
+
