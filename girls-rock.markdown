@@ -12,4 +12,4 @@ tag: 'skulls'
 meta-keywords: bikers, harley davidson, skulls, girls, cool, chopper, cute, little, lady, skull, lucky, outlaw, motorcycle, rider, pirate, rock, rocker, grunge, metal, punk, skater, skull and cross bones, girls skull t-shirt, girls skull tee, gigs, festivals, look cool, toddler, teen
 ---
 
-{% include product/ebay-description-layout.html%}
+{% include product/ebay-description-layout.html %}
