@@ -8,6 +8,7 @@ image2: '/assets/images/products/this-girl-rocks-black.jpg'
 size-description: 'Sizes to fit ages from 3-4. Sizes 3-4 years, 5-6 years, 7-8 years, 9-11 years'
 colour-description: 'black, purple quality t-shirt and with glitter lettering.'
 tag: 'skulls'
+meta-keywords: bikers, harley davidson, skulls, girls, cool, chopper, cute, little, lady, skull, lucky, outlaw, motorcycle, rider, pirate, rock, rocker, grunge, metal, punk, skater, skull and cross bones, girls skull t-shirt, girls skull tee, gigs, festivals, look cool, toddler, teen
 ---
 
 {% include product/ebay-description-layout.html%}

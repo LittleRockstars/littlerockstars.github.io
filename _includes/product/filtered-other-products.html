@@ -2,7 +2,12 @@
     <h2>Check out our other items available ...</h2>
     <div class="row">
 
-        {% for product in site.products %}
+        {% assign filteredProducts = site.products 
+            | where_exp: "product", "product.id != include.productId"
+            | sort: "order", "first" 
+        %}
+
+        {% for product in filteredProducts  | limit:4 %}
         {% assign image = (product.image-url) | absolute_url %}
         {% assign alt = (product.product-alt) %}
 
@@ -13,6 +18,9 @@
                         <img class="pic-1" src="{{ image }}" alt="{{ alt }}" />
                     </a>
                 </div>
+
+                <!-- {{ include.productId }} - {{ product.id }} -->
+                <!-- {{ product.tag }} - {{ (include.tag) }} -->
                 <div class=" product-content">
                     <h3 class="title"><a href="{{ product.ebay-url }}">{{ product.name }}</a></h3>
                     <div class="price">{{ product.price }}</div>

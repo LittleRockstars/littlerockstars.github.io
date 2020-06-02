@@ -8,6 +8,7 @@ image2: '/assets/images/products/birthday-purple-front.jpg'
 size-description: 'Sizes to fit ages from 3-4. Sizes 3-4 years, 5-6 years, 7-8 years, 9-11 years'
 colour-description: 'black, purple quality t-shirt and with gold glitter lettering.'
 tag: 'birthdays'
+meta-keywords: personalised, happy birthday, age and name, girls, birthday, glitter, sparkle, balloons
 ---
 
-{% include product/ebay-description-layout.html%}
+{% include product/ebay-description-layout.html %}

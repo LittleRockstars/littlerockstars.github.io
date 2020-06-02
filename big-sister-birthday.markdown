@@ -8,6 +8,8 @@ size-description: 'Sizes to fit ages from 2-3 years. Sizes 2-3 years, 3-4 years,
 colour-description: 'White t-shirt and with pink glitter pony and gold glitter stars.'
 alt: 'big sister of the birthday girl pink pony t-shirt'
 tag: 'birthdays'
+meta-keywords: happy birthday, horses, pony, ponies, girls, pink birthday, big sister, glitter, sparkle
 ---
+
 
 {% include product/ebay-description-layout.html%}
