@@ -20,6 +20,15 @@
                 </p>
             </div>
 
+            {% assign keywords =  (include.meta-keywords) | split: ", " %}
+            {% for keyword in keywords %}
+            <ul style="display: none;">
+                <li>
+                    {{ keyword }}
+                </li>
+            </ul>
+            {% endfor %}
+
             {% if image2 == null %}
             <div class="row">
                 <div class="col-sm">

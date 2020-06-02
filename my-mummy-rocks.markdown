@@ -10,20 +10,4 @@ alt: 'my mummy rocks perfect glitterly t-shirt for mothers day and birthday pres
 tag: 'skulls'
 ---
 
-{% include product/logo.html%}
-
-{% include product/store-information.html%}
-
-{% include product/product-details.html
-    description = page.description
-    image1 = page.image1
-    image2 = page.image2
-    size-description = page.size-description
-    colour-description = page.colour-description
-    alt = page.alt
-    tag = page.tag
-%}
-
-{% include product/product-table1.html%}
-
-{% include product/other-products.html productId=page.productId %}
+{% include product/ebay-description-layout.html%}
