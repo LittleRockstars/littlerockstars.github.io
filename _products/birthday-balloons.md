@@ -14,4 +14,5 @@ tag: 'birthdays'
 meta-keywords: personalised, happy birthday, age and name, girls, birthday, glitter, sparkle, balloons
 product-alt: 'Little rockstars - girls & boys personalised birthday balloon t-shirt with glitter stars and colours balloons, can be personalised with name and age'
 ebay-url: https://www.ebay.co.uk/itm/Kids-Boys-Girls-Glitter-Personalised-Birthday-Balloon-Party-Celebration-T-Shirt/313026453072?hash=item48e1d49e50:m:mHsN6GzleJJu1ROykoA8YJA&var=611720389267
+amazon-url: https://www.amazon.co.uk/Little-Rockstars-Personalised-Birthday-Celebration/dp/B0892W5RNF/ref=sr_1_2?dchild=1&keywords=birthday+t-shirt&m=A1J0V53ZQGJHT4&qid=1591133191&s=merchant-items&sr=1-2
 ---

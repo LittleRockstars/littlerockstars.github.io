@@ -14,4 +14,5 @@ tag: 'birthdays'
 meta-keywords: happy birthday, horses, pony, ponies, girls, pink birthday, big sister, glitter, sparkle
 alt: 'Little rockstars - girls big sister of the birthday girl t-shirt with pink glitter pony and gold glitter stars.'
 ebay-url: https://www.ebay.co.uk/itm/Kids-Girls-Glitter-Personalised-Big-Sister-Of-The-Birthday-Girl-Pony-T-Shirt/313027015012?hash=item48e1dd3164:m:mRgebqx5iZLU22W3yju3fkQ
+amazon-url: https://www.amazon.co.uk/Little-Rockstars-Glitter-Personalised-Birthday/dp/B0892WYNKD/ref=sr_1_1?dchild=1&keywords=birthday+t-shirt&m=A1J0V53ZQGJHT4&qid=1591133221&s=merchant-items&sr=1-1
 ---

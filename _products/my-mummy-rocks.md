@@ -14,5 +14,5 @@ tag: 'skulls'
 meta-keywords: bikers, harley davidson, skulls, girls, cool, chopper, cute, little, lady, skull, lucky, outlaw, motorcycle, rider, pirate, rock, rocker, grunge, metal, punk, skater, skull and cross bones, girls skull t-shirt, girls skull tee, gigs, festivals, look cool, toddler, teen, mothers day, roses, love hearts
 product-alt: 'Little rockstars my mummy rocks t-shirt with sparkly red glitter roses perfect for mothers day, birthdays or as a gift or present for your little rockstars'
 ebay-url: https://www.ebay.co.uk/itm/Kids-Boys-Girls-Glitter-My-Mummy-Rocks-Mothers-Day-Skull-Roses-T-Shirt/313026443437?hash=item48e1d478ad:m:mY2zGKLB-HPqTfw-EWPYvAQ&var=611720381530
-
+amazon-url: https://www.amazon.co.uk/Little-Rockstars-Glitter-Mothers-T-Shirt/dp/B0892W69ZY/ref=sr_1_1?dchild=1&keywords=mummy+t-shirt&m=A1J0V53ZQGJHT4&qid=1591133519&s=merchant-items&sr=1-1
 ---

@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: page-description
 id: '/products/vinyl-retro-robot'
 ---
 
-{% include product/ebay-description-layout.html %}
+{% include ebay-description-layout.html %}
 
 
 
