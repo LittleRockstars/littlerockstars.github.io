@@ -32,23 +32,13 @@
                 {% endfor %}
             </ul>
 
-            {% if image2 == null %}
             <div class="row">
+                {% for image in product.images | limit:2 %}
                 <div class="col-sm">
-                    <img style="width: 80%;" alt="{{ alt }}" class="mx-auto d-block img-fluid image-padding"
-                        src="{{ image1 }}" />
+                    <img alt="{{ alt }}" class="mx-auto d-block img-fluid image-padding" src="{{ image }}" />
                 </div>
+                {% endfor %}
             </div>
-            {% else %}
-            <div class="row">
-                <div class="col-sm">
-                    <img alt="{{ alt }}" class="mx-auto d-block img-fluid image-padding" src="{{ image1 }}" />
-                </div>
-                <div class="col-sm">
-                    <img alt="{{ alt }}" class="mx-auto d-block img-fluid image-padding" src="{{ image2 }}" />
-                </div>
-            </div>
-            {% endif %}
 
             <div class="col-12 col-md-12 top-padding">
                 <p>
