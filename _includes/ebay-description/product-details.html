@@ -7,8 +7,6 @@
 {% assign description = (product.description) %}
 {% assign size-description = (product.size-description) %}
 {% assign colour-description = (product.colour-description) %}
-{% assign image1 = (product.image1) | absolute_url %}
-{% assign image2 = (product.image2) | absolute_url %}
 {% assign alt = (product.alt) %}
 {% assign meta-keywords = (product.meta-keywords) %}
 
@@ -34,8 +32,9 @@
 
             <div class="row">
                 {% for image in product.images | limit:2 %}
+                {% assign image-url = image | absolute_url %}
                 <div class="col-sm">
-                    <img alt="{{ alt }}" class="mx-auto d-block img-fluid image-padding" src="{{ image }}" />
+                    <img alt="{{ alt }}" class="mx-auto d-block img-fluid image-padding" src="{{ image-url }}" />
                 </div>
                 {% endfor %}
             </div>
