@@ -7,13 +7,21 @@ layout: compress
 
 {% include ebay-description/head.html %}
 
+<style type="text/css">
+    <!-- 
+    #ebay-description {
+        min-height: 4000px !Important;
+    }
+    -->
+</style>
+
 {% if page.prefetch %}
 <link rel="prefetch" href="{{ page.prefetch }}">
 <link rel="prerender" href="{{ page.prefetch }}">
 {% endif %}
 
 <body>
-    <main class="page-content" aria-label="Content">
+    <main id="ebay-description" class="page-content" aria-label="Content">
         <div class="wrapper">
             {{ content }}
         </div>
