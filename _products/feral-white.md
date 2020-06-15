@@ -16,6 +16,6 @@ size-description: 'Sizes to fit ages up to 13 years. Sizes 3-4 years, 5-6 years,
 colour-description: 'black quality t-shirt with metallic red and white lettering.'
 meta-keywords: girls, feral, boys, personalised, T-shirt, bikers, skulls, cool, cute, little, lady, skull, lucky, rider, rock, rocker, grunge, metal, punk, skater, skull and cross bones, girls skull t-shirt, girls skull tee, gigs, festivals, look cool, toddler, teen
 product-alt: 'Little rockstars - boys and girls feral t-shirt with metallic lettering perfect for birthdays or as a gift or present for your feral little rockstars'
-ebay-url: 
+ebay-url: https://www.ebay.co.uk/itm/Kids-Girls-Boys-Lockdown-2020-T-Shirt-Feral-White-Cool-Funny-Warning-Message-Tee/313116954791?hash=item48e73990a7:g:J-oAAOSwbSFe5-UB&var=611836666551
 amazon-url: 
 ---
