@@ -6,7 +6,7 @@ tag: 'farthers-day'
 brand: Little Rockstars
 name: Daddys Little Rockstar Baby Grow
 price: £6.99
-description: 'Little Rockstars - presents a cute little personalised baby grow with rocking character text for your little ones on Fathers day.'
+description: 'Little Rockstars - presents a cute little personalised baby grow with rocking character text for your little ones on Fathers day, and can be personalised with the name or message of your choice. Please contact seller at point of purchase with the details.'
 images: 
     - '/assets/images/products/daddys-little-rockstar-fathers-day-personalised-girl-white.jpg'
     - '/assets/images/products/daddys-little-rockstar-fathers-day-personalised-boy-white.jpg'
