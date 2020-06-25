@@ -18,9 +18,10 @@
                     <div class="row row-10 items-grid">
                         {% assign stock = site.products | sort: "order", "first"%}
                         {% for product in stock %}
-                            {% include product-item.html %}
+                            {% if product.name != null %}
+                                {% include product-item.html %}
+                            {% endif %}
                         {% endfor %}
-
                     </div>
                     <!-- end row -->
                 </div>

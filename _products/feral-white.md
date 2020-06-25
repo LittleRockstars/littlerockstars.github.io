@@ -13,6 +13,7 @@ images:
     - '/assets/images/products/feral-white-red.jpg'
 size-description: 'Sizes to fit ages up to 13 years. Sizes 3-4 years, 5-6 years, 7-8 years, 9-11 years, 12-13 years.'
 colour-description: 'black quality t-shirt with metallic red and white lettering.'
+style: [standard]
 categories: [unisex-tshirts]
 tag: [feral, lockdown]
 meta-keywords: girls, feral, boys, personalised, T-shirt, bikers, skulls, cool, cute, little, lady, skull, lucky, rider, rock, rocker, grunge, metal, punk, skater, skull and cross bones, girls skull t-shirt, girls skull tee, gigs, festivals, look cool, toddler, teen

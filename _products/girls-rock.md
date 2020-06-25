@@ -17,6 +17,7 @@ images:
 size-description: 'Sizes to fit all ages up to 13 years. Sizes 1-2 years , 3-4 years, 5-6 years, 7-8 years, 9-11 years, 12-13 years.'
 sizes-available: [1-2 years , 3-4 years, 5-6 years, 7-8 years, 9-11 years, 12-13 years]
 colour-description: 'black, purple, pink, red and white quality t-shirt and with glitter lettering.'
+style: [fitted]
 categories: [girls-tshirts]
 tags: [skulls, rock, festival] 
 bullet-points:

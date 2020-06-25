@@ -11,6 +11,7 @@ images:
     - '/assets/images/products/rock-panda-white.jpg'
 size-description: 'Sizes to fit ages from 3-4. Sizes 3-4 years, 5-6 years, 7-8 years, 9-11 years'
 colour-description: 'black, purple quality t-shirt and with glitter lettering.'
+style: [standard]
 categories: [unisex-tshirts]
 tags: [animal, rock, festival] 
 meta-keywords: girls, boys, cool, chopper, cute, little, panda, rock, rocker, grunge, metal, punk, skater, gigs, festivals, look cool, toddler, teen, animal, guitar

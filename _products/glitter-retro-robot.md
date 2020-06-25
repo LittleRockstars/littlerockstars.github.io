@@ -11,6 +11,7 @@ images:
     - '/assets/images/products/glitter-robot-girls-red.jpg'
 size-description: 'Sizes to fit all ages up to 7-8 years. 3-4 years, 5-6 years and 7-8 years.'
 colour-description: 'black, purple, blue, and red fitted or standard fit t-shirt and with glitter robot.'
+style: [standard, fitted]
 categories: [unisex-tshirts]
 tag: [robots]
 meta-keywords: kids, robot, toy, retro, 50''s style, glitter

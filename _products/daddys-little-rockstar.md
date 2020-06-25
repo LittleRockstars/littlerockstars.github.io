@@ -13,6 +13,7 @@ images:
     - '/assets/images/products/daddys-little-rockstar-fathers-day-white.jpg'
 size-description: 'Sizes to fit ages up to 18 months, 0-3 months, 3-6 months, 6-12 months and 12-18 months'
 colour-description: 'white quality baby grow with black cute rocking character text in soft quality vinyl'
+style: [baby]
 categories: [baby-grows]
 tags: [fathers-day] 
 meta-keywords: girls, boys, personalised, look cool, toddler, father's day
