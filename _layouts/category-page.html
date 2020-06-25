@@ -1,4 +1,6 @@
-<!-- Catalogue -->
+---
+layout: default
+---
 
 <section class="section-wrap pt-70 pb-40 catalogue">
     <div class="container relative">
@@ -16,7 +18,7 @@
                     </div>
 
                     <div class="row row-10 items-grid">
-                        {% assign stock = site.products | sort: "order", "first"%}
+                        {% assign stock = site.products | where: "categories", page.slug  %}
                         {% for product in stock %}
                             {% include product-item.html %}
                         {% endfor %}
@@ -33,5 +35,3 @@
     </div>
     <!-- end container -->
 </section>
-
-<!-- end catalogue -->

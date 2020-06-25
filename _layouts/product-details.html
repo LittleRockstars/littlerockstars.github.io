@@ -13,190 +13,130 @@ layout: default
 
                 <div class="flickity flickity-slider-wrap mfp-hover" id="gallery-main">
                     {% for image in product.images %}
-                    <div class="gallery-cell">
-                        <a href="{{ image }}" class="lightbox-img">
-                            <img src="{{ image }}" alt="" />
-                            <i class="icon arrow_expand"></i>
-                        </a>
-                    </div>
+                        <div class="gallery-cell">
+                            <a href="{{ image }}" class="lightbox-img">
+                                <img src="{{ image }}" alt=""/>
+                                <i class="icon arrow_expand"></i>
+                            </a>
+                        </div>
                     {% endfor %}
-                </div> <!-- end gallery main -->
+                </div>
+                <!-- end gallery main -->
 
-            </div> <!-- end col img slider -->
+            </div>
+            <!-- end col img slider -->
 
             <div class="col-sm-6 col-xs-12 product-description-wrap">
                 <h1 class="product-title">{{ product.name }}</h1>
-                <span class="rating">
-                    <a href="#">3 Reviews</a>
+                <span class="posted_in">Category:
+                    {% for productcategory in product.categories %}
+                        {% assign category = site.my_categories | where: "slug", productcategory | first %}
+                        <a href="{{ category.url }}">{{ category.name}}</a>
+                    {% endfor %}
                 </span>
+
                 <span class="price">
                     <ins>
                         <span class="ammount">{{ product.price }}</span>
                     </ins>
                 </span>
-                <p class="product-description">
-                    {{ product.description }}
-                </p>
+                <ul class="product-description">
+                    {% for bullet in product.bullet-points %}
+                        <li>{{ bullet }}</li>
+                    {% endfor %}
+                </ul>
 
                 <div class="gallery-thumbs">
                     {% for image in product.images %}
-                    <div class="gallery-cell">
-                        <img src="{{ image }}" alt="" />
-                    </div>
+                        <div class="gallery-cell">
+                            <img src="{{ image }}" alt=""/>
+                        </div>
                     {% endfor %}
-                </div> <!-- end gallery thumbs -->
+                </div>
+                <!-- end gallery thumbs -->
 
                 <div class="row">
                     <div class="product-actions">
                         <ul>
-                            <li>
-                                <a href="{{ product.ebay-url }}">
-                                    <img src="/assets/images/ebay-buy-button.png" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ product.amazon-url }}">
-                                    <img src="/assets/images/amazon-buy-button.png" />
-                                </a>
-                            </li>
+                            <li><ahref="{{product.ebay-url}}"><img src="/assets/images/ebay-buy-button.png"/></a></li>
+                            <li><ahref="{{product.amazon-url}}"><img src="/assets/images/amazon-buy-button.png"/></a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="product_meta">
-                    <span>Sizes Available: </span>
+                    <span>Sizes Available:
+                    </span>
                     <div class="size-boxes">
-                        <span>
-                            1-2 years
-                        </span>
-                        <span>
-                            2-3 years
-                        </span>
-                        <span>
-                            5-6 years
-                        </span>
-                        <span>
-                            7-8 years
-                        </span>
-                        <span>
-                            9-11 years
-                        </span>
-                        <span>
-                            12-13 years
-                        </span>
+                        {% for size in product.sizes-available %}
+                            <span>
+                                {{ size }}
+                            </span>
+                        {% endfor %}
                     </div>
-                    <span class="posted_in">Category: <a href="#">Accessories</a></span>
-                    <span class="tagged_as">Tags: <a href="#">Elegant</a>, <a href="#">Bag</a></span>
+
+                    <span class="tagged_as">Tags:
+                        {% for producttag in product.tags %}
+                            {% assign tag = site.my_tags | where: "slug", producttag | first %}
+                            <a href="{{ tag.url }}">{{ tag.name}}</a>
+                        {% endfor %}
+                    </span>
+
                 </div>
 
                 <div class="socials-share clearfix">
                     <div class="social-icons rounded">
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
                     </div>
                 </div>
-            </div> <!-- end col product description -->
-        </div> <!-- end row -->
-
-        <!-- tabs -->
+            </div>
+            <!-- end col product description -->
+        </div>
+        <!-- end row -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <!-- tabs -->
         <div class="row">
             <div class="col-md-12">
                 <div class="tabs tabs-bb">
                     <ul class="nav nav-tabs">
                         <li class="active">
-                            <a href="#tab-description" data-toggle="tab">Description</a>
+                            <a data-toggle="tab" href="#tab-description">Description</a>
                         </li>
                         <li>
-                            <a href="#tab-info" data-toggle="tab">Information</a>
+                            <a data-toggle="tab" href="#tab-info">Size Chart</a>
                         </li>
-                        <li>
-                            <a href="#tab-reviews" data-toggle="tab">Reviews</a>
-                        </li>
-                    </ul> <!-- end tabs -->
-
-                    <!-- tab content -->
+                    </ul>
+                    <!-- end tabs -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <!-- tab content -->
                     <div class="tab-content">
 
                         <div class="tab-pane fade in active" id="tab-description">
                             <p>
-                                We possess within us two minds. So far I have written only of the conscious mind. I
-                                would now like to introduce you to your second mind, the hidden and mysterious
-                                subconscious. Our subconscious mind contains such power and complexity that it literally
-                                staggers the imagination.And finally the subconscious is the mechanism through which
-                                thought impulses which are repeated regularly with feeling and emotion are quickened,
-                                charged. Our subconscious mind contains such power and complexity that it literally
-                                staggers the imagination.And finally the subconscious is the mechanism through which
-                                thought impulses.
+                                {{ product.description }}
                             </p>
                         </div>
 
-                        <div class="tab-pane fade" id="tab-info">
-                            <table class="table">
-
-                                <tbody>
-                                    <tr>
-                                        <th>CPU</th>
-                                        <td>2.7GHz quad-core Intel Core i5 Turbo Boost up to 3.2GHz</td>
-                                    </tr>
-                                    <tr>
-                                        <th>RAM</th>
-                                        <td>8GB (two 4GB) memory</td>
-                                    </tr>
-                                    <tr>
-                                        <th>Video</th>
-                                        <td>Intel Iris Pro Graphics</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <div class="tab-pane fade" id="tab-reviews">
-
-                            <div class="reviews">
-                                <ul class="reviews-list">
-                                    <li>
-                                        <div class="review-body">
-                                            <div class="review-content">
-                                                <p class="review-author"><strong>Alexander Samokhin</strong> - May 6,
-                                                    2014 at 12:48 pm</p>
-                                                <div class="rating">
-                                                    <a href="#"></a>
-                                                </div>
-                                                <p>This template is so awesome. I didn’t expect so many features inside.
-                                                    E-commerce pages are very useful, you can launch your online store
-                                                    in few seconds. I will rate 5 stars.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="review-body">
-                                            <div class="review-content">
-                                                <p class="review-author"><strong>Christopher Robins</strong> - May 6,
-                                                    2014 at 12:48 pm</p>
-                                                <div class="rating">
-                                                    <a href="#"></a>
-                                                </div>
-                                                <p>This template is so awesome. I didn’t expect so many features inside.
-                                                    E-commerce pages are very useful, you can launch your online store
-                                                    in few seconds. I will rate 5 stars.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                </ul>
-                            </div> <!--  end reviews -->
-                        </div>
-
-                    </div> <!-- end tab content -->
+                        <div class="tab-pane fade" id="tab-info"></div>
+                    </div>
+                    <!-- end tab content -->
 
                 </div>
-            </div> <!-- end tabs -->
-        </div> <!-- end row -->
+            </div>
+            <!-- end tabs -->
+        </div>
+        <!-- end row -->
 
 
-    </div> <!-- end container -->
-</section> <!-- end single product -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- end single product -->
 
 
 <!-- Related Items -->
@@ -204,34 +144,34 @@ layout: default
     <div class="container">
         <div class="row heading-row">
             <div class="col-md-12 text-center">
-                <h2 class="heading uppercase"><small>Related Products</small></h2>
+                <h2 class="heading uppercase">
+                    <small>Related Products</small>
+                </h2>
             </div>
         </div>
 
         <div class="row row-10">
 
-            <div id="owl-related-products" class="owl-carousel owl-theme nopadding">
+            <div class="owl-carousel owl-theme nopadding" id="owl-related-products">
 
                 <div class="product-item">
                     <div class="product-img">
                         <a href="#">
-                            <img src="/assets/images/shop/shop_item_1.jpg" alt="">
-                            <img src="/assets/images/shop/shop_item_1_back.jpg" alt="" class="back-img">
+                            <img alt="" src="/assets/images/shop/shop_item_1.jpg">
+                            <img alt="" class="back-img" src="/assets/images/shop/shop_item_1_back.jpg">
                         </a>
                         <div class="product-label">
                             <span class="sale">sale</span>
                         </div>
                         <div class="product-actions">
-                            <a href="#" class="product-add-to-compare" data-toggle="tooltip" data-placement="bottom"
-                                title="Add to compare">
+                            <a class="product-add-to-compare" data-placement="bottom" data-toggle="tooltip" href="#" title="Add to compare">
                                 <i class="fa fa-exchange"></i>
                             </a>
-                            <a href="#" class="product-add-to-wishlist" data-toggle="tooltip" data-placement="bottom"
-                                title="Add to wishlist">
+                            <a class="product-add-to-wishlist" data-placement="bottom" data-toggle="tooltip" href="#" title="Add to wishlist">
                                 <i class="fa fa-heart"></i>
                             </a>
                         </div>
-                        <a href="#" class="product-quickview">Quick View</a>
+                        <a class="product-quickview" href="#">Quick View</a>
                     </div>
                     <div class="product-details">
                         <h3>
@@ -251,20 +191,18 @@ layout: default
                 <div class="product-item">
                     <div class="product-img">
                         <a href="#">
-                            <img src="/assets/images/shop/shop_item_2.jpg" alt="">
-                            <img src="/assets/images/shop/shop_item_2_back.jpg" alt="" class="back-img">
+                            <img alt="" src="/assets/images/shop/shop_item_2.jpg">
+                            <img alt="" class="back-img" src="/assets/images/shop/shop_item_2_back.jpg">
                         </a>
                         <div class="product-actions">
-                            <a href="#" class="product-add-to-compare" data-toggle="tooltip" data-placement="bottom"
-                                title="Add to compare">
+                            <a class="product-add-to-compare" data-placement="bottom" data-toggle="tooltip" href="#" title="Add to compare">
                                 <i class="fa fa-exchange"></i>
                             </a>
-                            <a href="#" class="product-add-to-wishlist" data-toggle="tooltip" data-placement="bottom"
-                                title="Add to wishlist">
+                            <a class="product-add-to-wishlist" data-placement="bottom" data-toggle="tooltip" href="#" title="Add to wishlist">
                                 <i class="fa fa-heart"></i>
                             </a>
                         </div>
-                        <a href="#" class="product-quickview">Quick View</a>
+                        <a class="product-quickview" href="#">Quick View</a>
                     </div>
                     <div class="product-details">
                         <h3>
@@ -281,21 +219,19 @@ layout: default
                 <div class="product-item">
                     <div class="product-img">
                         <a href="#">
-                            <img src="/assets/images/shop/shop_item_3.jpg" alt="">
-                            <img src="/assets/images/shop/shop_item_3_back.jpg" alt="" class="back-img">
+                            <img alt="" src="/assets/images/shop/shop_item_3.jpg">
+                            <img alt="" class="back-img" src="/assets/images/shop/shop_item_3_back.jpg">
                         </a>
                         <span class="sold-out valign">out of stock</span>
                         <div class="product-actions">
-                            <a href="#" class="product-add-to-compare" data-toggle="tooltip" data-placement="bottom"
-                                title="Add to compare">
+                            <a class="product-add-to-compare" data-placement="bottom" data-toggle="tooltip" href="#" title="Add to compare">
                                 <i class="fa fa-exchange"></i>
                             </a>
-                            <a href="#" class="product-add-to-wishlist" data-toggle="tooltip" data-placement="bottom"
-                                title="Add to wishlist">
+                            <a class="product-add-to-wishlist" data-placement="bottom" data-toggle="tooltip" href="#" title="Add to wishlist">
                                 <i class="fa fa-heart"></i>
                             </a>
                         </div>
-                        <a href="#" class="product-quickview">Quick View</a>
+                        <a class="product-quickview" href="#">Quick View</a>
                     </div>
                     <div class="product-details">
                         <h3>
@@ -312,20 +248,18 @@ layout: default
                 <div class="product-item">
                     <div class="product-img">
                         <a href="#">
-                            <img src="/assets/images/shop/shop_item_4.jpg" alt="">
-                            <img src="/assets/images/shop/shop_item_4_back.jpg" alt="" class="back-img">
+                            <img alt="" src="/assets/images/shop/shop_item_4.jpg">
+                            <img alt="" class="back-img" src="/assets/images/shop/shop_item_4_back.jpg">
                         </a>
                         <div class="product-actions">
-                            <a href="#" class="product-add-to-compare" data-toggle="tooltip" data-placement="bottom"
-                                title="Add to compare">
+                            <a class="product-add-to-compare" data-placement="bottom" data-toggle="tooltip" href="#" title="Add to compare">
                                 <i class="fa fa-exchange"></i>
                             </a>
-                            <a href="#" class="product-add-to-wishlist" data-toggle="tooltip" data-placement="bottom"
-                                title="Add to wishlist">
+                            <a class="product-add-to-wishlist" data-placement="bottom" data-toggle="tooltip" href="#" title="Add to wishlist">
                                 <i class="fa fa-heart"></i>
                             </a>
                         </div>
-                        <a href="#" class="product-quickview">Quick View</a>
+                        <a class="product-quickview" href="#">Quick View</a>
                     </div>
                     <div class="product-details">
                         <h3>
@@ -342,20 +276,18 @@ layout: default
                 <div class="product-item">
                     <div class="product-img">
                         <a href="#">
-                            <img src="/assets/images/shop/shop_item_5.jpg" alt="">
-                            <img src="/assets/images/shop/shop_item_5_back.jpg" alt="" class="back-img">
+                            <img alt="" src="/assets/images/shop/shop_item_5.jpg">
+                            <img alt="" class="back-img" src="/assets/images/shop/shop_item_5_back.jpg">
                         </a>
                         <div class="product-actions">
-                            <a href="#" class="product-add-to-compare" data-toggle="tooltip" data-placement="bottom"
-                                title="Add to compare">
+                            <a class="product-add-to-compare" data-placement="bottom" data-toggle="tooltip" href="#" title="Add to compare">
                                 <i class="fa fa-exchange"></i>
                             </a>
-                            <a href="#" class="product-add-to-wishlist" data-toggle="tooltip" data-placement="bottom"
-                                title="Add to wishlist">
+                            <a class="product-add-to-wishlist" data-placement="bottom" data-toggle="tooltip" href="#" title="Add to wishlist">
                                 <i class="fa fa-heart"></i>
                             </a>
                         </div>
-                        <a href="#" class="product-quickview">Quick View</a>
+                        <a class="product-quickview" href="#">Quick View</a>
                     </div>
 
                     <div class="product-details">
@@ -373,23 +305,21 @@ layout: default
                 <div class="product-item">
                     <div class="product-img">
                         <a href="#">
-                            <img src="/assets/images/shop/shop_item_6.jpg" alt="">
-                            <img src="/assets/images/shop/shop_item_6_back.jpg" alt="" class="back-img">
+                            <img alt="" src="/assets/images/shop/shop_item_6.jpg">
+                            <img alt="" class="back-img" src="/assets/images/shop/shop_item_6_back.jpg">
                         </a>
                         <div class="product-label">
                             <span class="sale">sale</span>
                         </div>
                         <div class="product-actions">
-                            <a href="#" class="product-add-to-compare" data-toggle="tooltip" data-placement="bottom"
-                                title="Add to compare">
+                            <a class="product-add-to-compare" data-placement="bottom" data-toggle="tooltip" href="#" title="Add to compare">
                                 <i class="fa fa-exchange"></i>
                             </a>
-                            <a href="#" class="product-add-to-wishlist" data-toggle="tooltip" data-placement="bottom"
-                                title="Add to wishlist">
+                            <a class="product-add-to-wishlist" data-placement="bottom" data-toggle="tooltip" href="#" title="Add to wishlist">
                                 <i class="fa fa-heart"></i>
                             </a>
                         </div>
-                        <a href="#" class="product-quickview">Quick View</a>
+                        <a class="product-quickview" href="#">Quick View</a>
                     </div>
 
                     <div class="product-details">
@@ -407,20 +337,18 @@ layout: default
                 <div class="product-item">
                     <div class="product-img">
                         <a href="#">
-                            <img src="/assets/images/shop/shop_item_7.jpg" alt="">
-                            <img src="/assets/images/shop/shop_item_7_back.jpg" alt="" class="back-img">
+                            <img alt="" src="/assets/images/shop/shop_item_7.jpg">
+                            <img alt="" class="back-img" src="/assets/images/shop/shop_item_7_back.jpg">
                         </a>
                         <div class="product-actions">
-                            <a href="#" class="product-add-to-compare" data-toggle="tooltip" data-placement="bottom"
-                                title="Add to compare">
+                            <a class="product-add-to-compare" data-placement="bottom" data-toggle="tooltip" href="#" title="Add to compare">
                                 <i class="fa fa-exchange"></i>
                             </a>
-                            <a href="#" class="product-add-to-wishlist" data-toggle="tooltip" data-placement="bottom"
-                                title="Add to wishlist">
+                            <a class="product-add-to-wishlist" data-placement="bottom" data-toggle="tooltip" href="#" title="Add to wishlist">
                                 <i class="fa fa-heart"></i>
                             </a>
                         </div>
-                        <a href="#" class="product-quickview">Quick View</a>
+                        <a class="product-quickview" href="#">Quick View</a>
                     </div>
 
                     <div class="product-details">
@@ -438,23 +366,21 @@ layout: default
                 <div class="product-item">
                     <div class="product-img">
                         <a href="#">
-                            <img src="/assets/images/shop/shop_item_8.jpg" alt="">
-                            <img src="/assets/images/shop/shop_item_8_back.jpg" alt="" class="back-img">
+                            <img alt="" src="/assets/images/shop/shop_item_8.jpg">
+                            <img alt="" class="back-img" src="/assets/images/shop/shop_item_8_back.jpg">
                         </a>
                         <div class="product-label">
                             <span class="sale">sale</span>
                         </div>
                         <div class="product-actions">
-                            <a href="#" class="product-add-to-compare" data-toggle="tooltip" data-placement="bottom"
-                                title="Add to compare">
+                            <a class="product-add-to-compare" data-placement="bottom" data-toggle="tooltip" href="#" title="Add to compare">
                                 <i class="fa fa-exchange"></i>
                             </a>
-                            <a href="#" class="product-add-to-wishlist" data-toggle="tooltip" data-placement="bottom"
-                                title="Add to wishlist">
+                            <a class="product-add-to-wishlist" data-placement="bottom" data-toggle="tooltip" href="#" title="Add to wishlist">
                                 <i class="fa fa-heart"></i>
                             </a>
                         </div>
-                        <a href="#" class="product-quickview">Quick View</a>
+                        <a class="product-quickview" href="#">Quick View</a>
                     </div>
 
                     <div class="product-details">
@@ -472,8 +398,12 @@ layout: default
                     </div>
                 </div>
 
-            </div> <!-- end owl -->
+            </div>
+            <!-- end owl -->
 
-        </div> <!-- end row -->
-    </div> <!-- end container -->
-</section> <!-- end related products -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- end related products -->

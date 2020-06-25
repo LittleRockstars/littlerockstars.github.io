@@ -2,7 +2,6 @@
 layout: product-details
 order: 1
 id: boys-rock
-tag: 'skulls'
 brand: 'Little Rockstars'
 name: Boys Rock Skull T-Shirt
 price: £5.95
@@ -16,7 +15,8 @@ images:
     - '/assets/images/products/boys-rock-black-skull-white.jpg'
 size-description: 'Sizes to fit all ages up to 13 years. Sizes 1-2 years , 3-4 years, 5-6 years, 7-8 years, 9-11 years, 12-13 years.'
 colour-description: 'black, purple, pink, red and white quality t-shirt and with glitter lettering.'
-tag: 'skulls'
+categories: [boys-tshirts]
+tags: [skulls, rock, festival] 
 meta-keywords: boys, boy, t-shirt, bikers, harley davidson, skulls, son, cool, chopper, grumpy old, skull, lucky, outlaw,motorcycle, rider, pirate, rock, rocker, grunge, metal, punk, skull and cross bones, boys skull t-shirt, boys skull tee, gigs, festivals, look cool
 product-alt: 'Little rockstars - boys rock t-shirt, look cool at the party or at festivals also perfect for birthdays'
 ebay-url: https://www.ebay.co.uk/itm/Kids-Boys-rock-glitter-skull-punk-metal-skater-pirate-band-festival-cool-T-Shirt/312744935084?hash=item48d10cfeac:m:mISoIwR4gxbrlXj0v0upxnA&var=611470107802
