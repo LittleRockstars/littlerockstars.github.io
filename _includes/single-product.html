@@ -1,0 +1,136 @@
+{% assign product = page %}
+
+<!-- Single Product -->
+<section class="section-wrap single-product">
+    <div class="container relative">
+        <div class="row">
+
+            <div class="col-sm-6 col-xs-12 mb-60">
+
+                <div class="flickity flickity-slider-wrap mfp-hover" id="gallery-main">
+                    {% for image in product.images %}
+                        <div class="gallery-cell">
+                            <a href="{{ image }}" class="lightbox-img">
+                                <img src="{{ image }}" alt=""/>
+                                <i class="icon arrow_expand"></i>
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+                <!-- end gallery main -->
+
+            </div>
+            <!-- end col img slider -->
+
+            <div class="col-sm-6 col-xs-12 product-description-wrap">
+                <h1 class="product-title">{{ product.name }}</h1>
+                <span class="posted_in">Category:
+                    {% for productcategory in product.categories %}
+                        {% assign category = site.my_categories | where: "slug", productcategory | first %}
+                        <a href="{{ category.url }}">{{ category.name}}</a>
+                    {% endfor %}
+                </span>
+
+                <span class="price">
+                    <ins>
+                        <span class="ammount">{{ product.price }}</span>
+                    </ins>
+                </span>
+                <ul class="product-description">
+                    {% for bullet in product.bullet-points %}
+                        <li>{{ bullet }}</li>
+                    {% endfor %}
+                </ul>
+
+                <div class="gallery-thumbs">
+                    {% for image in product.images %}
+                        <div class="gallery-cell">
+                            <img src="{{ image }}" alt=""/>
+                        </div>
+                    {% endfor %}
+                </div>
+                <!-- end gallery thumbs -->
+
+                <div class="row">
+                    <div class="product-actions">
+                        <ul>
+                            <li><ahref="{{product.ebay-url}}"><img src="/assets/images/ebay-buy-button.png"/></a></li>
+                            <li><ahref="{{product.amazon-url}}"><img src="/assets/images/amazon-buy-button.png"/></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="product_meta">
+                    <span>Sizes Available:
+                    </span>
+                    <div class="size-boxes">
+                        {% for size in product.sizes-available %}
+                            <span>
+                                {{ size }}
+                            </span>
+                        {% endfor %}
+                    </div>
+
+                    <div class="widget tags clearfix">
+                        <h3 class="widget-title uppercase">Tags</h3>
+                        {% for producttag in product.tags %}
+                            {% assign tag = site.my_tags | where: "slug", producttag | first %}
+                            <a href="{{ tag.url }}">{{ tag.name}}</a>
+                        {% endfor %}
+                    </div>
+
+                </div>
+
+                <div class="socials-share clearfix">
+                    <div class="social-icons rounded">
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- end col product description -->
+        </div>
+        <!-- end row -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <!-- tabs -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tabs tabs-bb">
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                            <a data-toggle="tab" href="#tab-description">Description</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#tab-info">Size Chart</a>
+                        </li>
+                    </ul>
+                    <!-- end tabs -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <!-- tab content -->
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="tab-description">
+                            <h3 style="line-height: 45px;">
+                                Product Description
+                            </h3>
+                            <p>
+                                {{ product.description }}
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="tab-info">
+                            {% include product-size-chart-standard.html %}
+                        </div>
+                    </div>
+                    <!-- end tab content -->
+
+                </div>
+            </div>
+            <!-- end tabs -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- end single product -->

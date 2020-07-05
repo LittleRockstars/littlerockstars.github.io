@@ -15,7 +15,7 @@ style: [standard, fitted]
 categories: [unisex-tshirts]
 tag: [robots]
 meta-keywords: kids, robot, toy, retro, 50''s style, glitter
-product-alt: 'Little rockstars - glitter retro robot'
+alt: 'Little rockstars - glitter retro robot'
 ebay-url: https://www.ebay.co.uk/itm/Kids-Boys-Girls-Vintage-Glitter-Toy-Retro-Robot-Fun-Sci-Fi-Science-Fair-T-Shirt/312744956111?hash=item48d10d50cf:m:m-xczdpGd2xPZY_Q6KLx1Og&var=611470120980
 amazon-url: https://www.amazon.co.uk/Little-Rockstars-Vintage-Glitter-Science/dp/B0892TDDS6/ref=sr_1_2?dchild=1&keywords=robot+t-shirt&m=A1J0V53ZQGJHT4&qid=1591133387&s=merchant-items&sr=1-2
 ---

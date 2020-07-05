@@ -15,7 +15,7 @@ style: [standard]
 categories: [unisex-tshirts]
 tags: [dinosaurs] 
 meta-keywords: dino, dinosaurs, glitter, multi-coloured, sparkly, baby t-rex, toddler, cute, party top
-product-alt: 'Little rockstars - Glitter Dinosaur'
+alt: 'Little rockstars - Glitter Dinosaur'
 ebay-url: https://www.ebay.co.uk/itm/Kids-Boys-Girls-Glitter-Dinosaur-Cute-Baby-T-Rex-Party-Multicoloured-T-Shirt/313026441071?hash=item48e1d46f6f:m:m85KyCRjjiISsgIEQl_m_mA&var=611720372854
 amazon-url: https://www.amazon.co.uk/Little-Rockstars-Multicoloured-Glitter-Dinosaur/dp/B0892WMJJV/ref=sr_1_1?dchild=1&keywords=dinosaur+t-shirt&m=A1J0V53ZQGJHT4&qid=1591133261&s=merchant-items&sr=1-1
 ---

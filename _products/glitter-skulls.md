@@ -16,7 +16,7 @@ categories: [girls-tshirts]
 tags: [skulls, rock, festival] 
 meta-keywords: bikers, harley davidson, skulls, girls, cool, chopper, cute, little, lady, skull, lucky, outlaw, motorcycle, rider, pirate, rock, rocker, grunge, metal, punk, skater, skull and cross bones, girls skull t-shirt, girls skull tee, gigs, festivals, look cool, toddler, teen
 image-url: '/assets/images/products/glitter-skulls-coloured-bows.jpg'
-product-alt: 'Little rockstars girls glitter skulls t-shirt with sparkly pink glitter skulls and bows, look cool at the party or at the rocking out at the gig.'
+alt: 'Little rockstars girls glitter skulls t-shirt with sparkly pink glitter skulls and bows, look cool at the party or at the rocking out at the gig.'
 ebay-url: https://www.ebay.co.uk/itm/'Kids-Girls-rock-glitter-pink-skulls-punk-heavy-metal-goth-music-festival-T-Shirt/313073850220?hash=item48e4a7d76c:m:mjgB6w7Kmk4XAl22u8zniMw&var=611783704787
 amazon-url: https://www.amazon.co.uk/Little-Rockstars-Glitter-Festival-T-Shirt/dp/B0892WCF3G/ref=sr_1_4?dchild=1&keywords=skull+t-shirt&m=A1J0V53ZQGJHT4&qid=1591133480&s=merchant-items&sr=1-4
 ---

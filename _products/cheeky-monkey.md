@@ -14,7 +14,7 @@ style: [baby]
 categories: [baby-grows]
 tags: [fun, monkey] 
 meta-keywords: girls, boys, look cool, toddler, fun cheeky, monkey
-product-alt: 'Little rockstars - Cheeky Monkey Baby Grow'
+alt: 'Little rockstars - Cheeky Monkey Baby Grow'
 ebay-url: https://www.ebay.co.uk/itm/Cute-Funny-Cheeky-Monkey-Baby-Grow-Bodysuit-Vest/313119861647?hash=item48e765eb8f:g:VTsAAOSwyz5e68qK
 amazon-url: 
 ---

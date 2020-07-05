@@ -19,7 +19,7 @@ style: [standard]
 categories: [boys-tshirts]
 tags: [skulls, rock, festival] 
 meta-keywords: boys, boy, t-shirt, bikers, harley davidson, skulls, son, cool, chopper, grumpy old, skull, lucky, outlaw,motorcycle, rider, pirate, rock, rocker, grunge, metal, punk, skull and cross bones, boys skull t-shirt, boys skull tee, gigs, festivals, look cool
-product-alt: 'Little rockstars - boys rock t-shirt, look cool at the party or at festivals also perfect for birthdays'
+alt: 'Little rockstars - boys rock t-shirt, look cool at the party or at festivals also perfect for birthdays'
 ebay-url: https://www.ebay.co.uk/itm/Kids-Boys-rock-glitter-skull-punk-metal-skater-pirate-band-festival-cool-T-Shirt/312744935084?hash=item48d10cfeac:m:mISoIwR4gxbrlXj0v0upxnA&var=611470107802
 amazon-url: https://www.amazon.co.uk/Little-Rockstars-Glitter-Childrens-Present/dp/B07X8QW7MG/ref=sr_1_1?dchild=1&keywords=boys+rock+t-shirt&m=A1J0V53ZQGJHT4&qid=1591133051&s=merchant-items&sr=1-1
 ---
