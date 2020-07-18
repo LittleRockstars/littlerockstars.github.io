@@ -4,7 +4,7 @@ order: 16
 id: girls-rock-baby
 brand: "Little Rockstars"
 name: "Girls Rock Baby Grow"
-price: £4.95
+price: £4.99
 description: "Little rockstars Girls rock baby grow with pink metallic lettering and black vinyl skull perfect for birthdays or as a gift or a present for your little rockstars."
 images:
   - "/assets/images/products/girls-rock-baby.jpg"
