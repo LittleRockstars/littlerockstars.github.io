@@ -1,6 +1,6 @@
 ---
 layout: page-description
-id: "/products/toddlers-snack"
+id: "/products/funny-kids-snack"
 ---
 
 {% include ebay-description-layout.html %}
