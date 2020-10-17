@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: product-page
 permalink: /
 ---
 
-{% include product-grid.html %}
 
 
 
