@@ -197,6 +197,7 @@
   }
 }
 
+
 .product-img .product-actions {
   display: block;
   position: absolute;
@@ -236,6 +237,7 @@
   color: #bebebe;
   font-style: normal;
 }
+
 
 /*-------------------------------------------------------*/
 /* Newsletter / CTA
@@ -635,29 +637,21 @@
 }
 
 .product-actions li {
+  margin-right: 7px;
+  display: inline-block;
   float: left;
-  width: 33.33%;
-  padding: 5px;
+
+  &:last-child {
+    margin-right: 0;
+    margin-left: 23px;
+  }
+
+  .buttons_added input {
+    width: 50px !important;
+    height: 50px !important;
+    line-height: 50px;
+  }
 }
-
-
-
-// .product-actions li {
-//   margin-right: 7px;
-//   display: inline-block;
-//   float: left;
-
-//   &:last-child {
-//     margin-right: 0;
-//     margin-left: 23px;
-//   }
-
-//   .buttons_added input {
-//     width: 50px !important;
-//     height: 50px !important;
-//     line-height: 50px;
-//   }
-// }
 
 .single-product .product-actions {
   padding: 3px 0 30px;

@@ -2,6 +2,18 @@
 layout: default
 ---
 
-<div class="post-content">
+<main class="content-wrapper oh">
+
+  {% include header.html %}
+  {% include breadcrumb.html %}
+
   {{ content }}
-</div>
+
+  <!-- Footer Type-1 -->
+  {% include footer.html %}
+
+  <div id="back-to-top">
+    <a href="#top"><i class="fa fa-angle-up"></i></a>
+  </div>
+
+</main>

@@ -3,7 +3,8 @@ layout: product-details
 order: 19
 id: girls-rock-metallic
 brand: Little Rockstars
-name: Girls Rock Skull Metallic T-Shirt
+name: Girls Rock Skull T-shirt
+subtitle: Girls Rock Skull in Metallic 
 price: £7.95
 description:
   "Little Rockstars presents an awesome Girls Rock T-Shirt for music fans everywhere.

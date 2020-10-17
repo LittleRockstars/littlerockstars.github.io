@@ -1,8 +1,0 @@
----
-layout: product-page
-permalink: /
----
-
-
-
-

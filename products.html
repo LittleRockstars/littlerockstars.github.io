@@ -1,33 +1,30 @@
 ---
 layout: main
+permalink: /products
 ---
 
-<section class="section-wrap pt-70 pb-40 catalogue">
+<section class="pt-30 pb-40 catalogue">
     <div class="container relative">
         <div class="row">
             <div class="col-md-12 catalogue-col right mb-50">
+
+            
+                {% include shop-filter.html %}
+
                 <div class="shop-catalogue grid-view">
-
-
-                    <div class="row heading-row">
-                        <div class="col-md-12 text-center">
-                            <h2 class="heading uppercase">
-                                <small>Our Collection</small>
-                            </h2>
-                        </div>
-                    </div>
-
                     <div class="row row-10 items-grid">
-                        {% assign stock = site.products | where: "categories", page.slug  %}
+                        {% assign stock = site.products %}
                         {% for product in stock %}
                             {% include product-item.html %}
                         {% endfor %}
-
                     </div>
                     <!-- end row -->
                 </div>
                 <!-- end grid mode -->
                 <div class="clear"></div>
+
+                {% include pagination.html %}
+
             </div>
             <!-- end col -->
         </div>
