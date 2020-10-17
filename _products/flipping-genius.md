@@ -3,7 +3,7 @@ layout: product-details
 id: flipping-genius
 order: 1
 brand: 'Little Rockstars'
-name: Mens Flipping Genius electronics Flip Flop T-shirt
+name: Mens Flipping Genius T-shirt
 price: £5.95
 description: 'Little Rockstars is literally geeking out this summer with this Mens flip-flop electronics engineering tshirt. The perfect present for the genius in your family.'
 images: 

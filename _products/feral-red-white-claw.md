@@ -3,7 +3,7 @@ layout: product-details
 order: 13
 id: feral-red-white-claw
 brand: Little Rockstars
-name: Kids Boys Girls Feral  Red & White Claw Lockdown T-Shirt
+name: Kids Boys Girls Feral Red & White Claw T-Shirt
 price: £8.95
 description: 'Little Rockstars - presents a Feral Lockdown T-shirt specially designed for the child that just wont sit still, never listens and breaks everything they get their hands on! Why not decorate your little ones with this warning message for  others to heed during these strange times.'
 images: 

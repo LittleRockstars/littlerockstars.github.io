@@ -3,7 +3,7 @@ layout: product-details
 id: birthday-balloon
 order: 7
 brand: 'Little Rockstars'
-name: Girls & Boys Personalised Birthday Balloon T-Shirt
+name: Personalised Birthday Balloon T-Shirt
 price: £7.95
 description: 'Little Rockstars presents something for that special day, a personalised girls and boys birthday t-shirt decorated with glitter balloons and stars, and personalised with the name and age of your choice, please contact seller at point of purchase with the details.'
 images: 
