@@ -1,8 +1,8 @@
-    <!-- Sidebar -->
-    <aside class="col-md-3 sidebar left-sidebar">
+<!-- Sidebar -->
+<aside class="col-md-3 sidebar left-sidebar">
 
-        <!-- Categories -->
-        <div class="widget categories">
+    <!-- Categories -->
+    <!-- <div class="widget categories">
             <h3 class="widget-title uppercase">Categories</h3>
             <ul class="list-no-dividers">
                 <li>
@@ -24,97 +24,109 @@
                     <a href="#">Shoes</a>
                 </li>
             </ul>
-        </div>
+        </div> -->
 
-        <!-- Select size -->
-        <div class="widget categories">
-            <h3 class="widget-title uppercase">Select size</h3>
-            <ul class="list-no-dividers">
+    <div class="widget categories">
+        <h3 class="widget-title uppercase">Categories</h3>
+        <ul class="list-no-dividers">
+            {% for category in site.my_categories %}
                 <li>
-                    <a href="#">Large</a>
+                    <a href="{{ category.url }}">{{ category.name }}</a>
                 </li>
-                <li>
-                    <a href="#">Medium</a>
+            {% endfor %}
+        </ul>
+    </div>
+
+
+    <!-- Select size -->
+    <div class="widget categories">
+        <h3 class="widget-title uppercase">Select size</h3>
+        <ul class="list-no-dividers">
+            <li>
+                <a href="#">Large</a>
+            </li>
+            <li>
+                <a href="#">Medium</a>
+            </li>
+            <li>
+                <a href="#">Small</a>
+            </li>
+            <li>
+                <a href="#">X-Large</a>
+            </li>
+            <li>
+                <a href="#">X-Small</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Select color -->
+    <div class="widget categories">
+        <h3 class="widget-title uppercase">Select color</h3>
+        <ul class="list-no-dividers">
+            <li>
+                <a href="#">White</a>
+            </li>
+            <li>
+                <a href="#">Grey</a>
+            </li>
+            <li>
+                <a href="#">Black</a>
+            </li>
+            <li>
+                <a href="#">Pink</a>
+            </li>
+            <li>
+                <a href="#">Green</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Bestsellers -->
+    <div class="widget bestsellers">
+        <div class="products-widget">
+            <h3 class="widget-title uppercase">Bestsellers</h3>
+            <ul class="product-list-widget">
+                <li class="clearfix">
+                    <a href="shop-single-product.html">
+                        <img src="/assets/images/shop_item_9.jpg" alt="">
+                        <span class="product-title">Sleeveless dress</span>
+                    </a>
+                    <span class="price">
+                        <ins>
+                            <span class="ammount">$120.00</span>
+                        </ins>
+                    </span>
                 </li>
-                <li>
-                    <a href="#">Small</a>
-                </li>
-                <li>
-                    <a href="#">X-Large</a>
-                </li>
-                <li>
-                    <a href="#">X-Small</a>
+                <li class="clearfix">
+                    <a href="shop-single-product.html">
+                        <img src="/assets/images/shop_item_10.jpg" alt="">
+                        <span class="product-title">Violet Party Dress</span>
+                    </a>
+                    <span class="price">
+                        <ins>
+                            <span class="ammount">$179.00</span>
+                        </ins>
+                    </span>
                 </li>
             </ul>
         </div>
+    </div>
 
-        <!-- Select color -->
-        <div class="widget categories">
-            <h3 class="widget-title uppercase">Select color</h3>
-            <ul class="list-no-dividers">
-                <li>
-                    <a href="#">White</a>
-                </li>
-                <li>
-                    <a href="#">Grey</a>
-                </li>
-                <li>
-                    <a href="#">Black</a>
-                </li>
-                <li>
-                    <a href="#">Pink</a>
-                </li>
-                <li>
-                    <a href="#">Green</a>
-                </li>
-            </ul>
-        </div>
+    <!-- Tags -->
+    <div class="widget tags clearfix">
+        <h3 class="widget-title uppercase">Tags</h3>
+        <a href="#">Multi-purpose</a>
+        <a href="#">Creative</a>
+        <a href="#">Elegant</a>
+        <a href="#">Clean</a>
+        <a href="#">Modern</a>
+        <a href="#">Responsive</a>
+        <a href="#">E-commerce</a>
+        <a href="#">WordPress</a>
+        <a href="#">Woocommerce</a>
+        <a href="#">Store</a>
+        <a href="#">Business</a>
+    </div>
 
-        <!-- Bestsellers -->
-        <div class="widget bestsellers">
-            <div class="products-widget">
-                <h3 class="widget-title uppercase">Bestsellers</h3>
-                <ul class="product-list-widget">
-                    <li class="clearfix">
-                        <a href="shop-single-product.html">
-                            <img src="/assets/images/shop_item_9.jpg" alt="">
-                            <span class="product-title">Sleeveless dress</span>
-                        </a>
-                        <span class="price">
-                            <ins>
-                                <span class="ammount">$120.00</span>
-                            </ins>
-                        </span>
-                    </li>
-                    <li class="clearfix">
-                        <a href="shop-single-product.html">
-                            <img src="/assets/images/shop_item_10.jpg" alt="">
-                            <span class="product-title">Violet Party Dress</span>
-                        </a>
-                        <span class="price">
-                            <ins>
-                                <span class="ammount">$179.00</span>
-                            </ins>
-                        </span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Tags -->
-        <div class="widget tags clearfix">
-            <h3 class="widget-title uppercase">Tags</h3>
-            <a href="#">Multi-purpose</a>
-            <a href="#">Creative</a>
-            <a href="#">Elegant</a>
-            <a href="#">Clean</a>
-            <a href="#">Modern</a>
-            <a href="#">Responsive</a>
-            <a href="#">E-commerce</a>
-            <a href="#">WordPress</a>
-            <a href="#">Woocommerce</a>
-            <a href="#">Store</a>
-            <a href="#">Business</a>
-        </div>
-
-    </aside> <!-- end sidebar -->
+</aside> <!-- end sidebar -->
