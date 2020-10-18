@@ -5,9 +5,13 @@
                 {% assign image = (product.images | first) %}
                 <img src="{{ image }}" alt="product.alt">
             </a>
-            <div class="product-label">
-                <span class="sale">sale</span>
-            </div>
+
+            {% if product.sale-price != null %}
+                <div class="product-label">
+                    <span class="sale">sale</span>
+                </div>
+            {% endif %}
+          
             <a href="#" class="product-quickview">Quick View</a>
         </div>
         <div class="product-details">
@@ -16,13 +20,24 @@
                     {{ product.name }}
                 </a>
             </h3>
+
             <span class="price">
-            <del>
-                <span>$388.00</span>
-            </del>
+
+            {% if product.sale-price != null %}
+                <del>
+                    <span>{{ product.price }}</span>
+                </del>
+                <ins>
+                    <span class="ammount">{{ product.sale-price }}</span>
+                </ins>
+            {% else %}
+
             <ins>
                 <span class="ammount">{{ product.price }}</span>
             </ins>
+
+            {% endif %}
+
             </span>
         </div>
     </div>

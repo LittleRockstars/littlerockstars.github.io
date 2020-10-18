@@ -6,6 +6,7 @@ brand: Little Rockstars
 name: Girls Rock Skull T-shirt
 subtitle: Girls Rock Skull in Metallic 
 price: £7.95
+sale-price: £6.95
 description:
   "Little Rockstars presents an awesome Girls Rock T-Shirt for music fans everywhere.
   This quality shiny top in pink metallic lettering makes a perfect girls birthday gift or present for any little drummer girl, music fan or little rock star."
@@ -28,4 +29,6 @@ meta-keywords: girl, girls, personalised, T-shirt, bikers, harley davidson, skul
 alt: "Little rockstars - girls rock t-shirt with sparkly purple glitter perfect for birthdays or as a gift or present for your little rockstars"
 ebay-url:
 amazon-url:
+pagination: 
+  enabled: true
 ---

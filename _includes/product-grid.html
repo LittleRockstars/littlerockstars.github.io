@@ -1,6 +1,6 @@
 <div class="shop-catalogue grid-view">
     <div class="row row-10 items-grid">
-        {% assign stock = site.products | sort: "order", "first"%}
+        {% assign stock = paginator.posts  | sort: "order", "first" %}
         {% for product in stock %}
         {% if product.name != null %}
         {% include product-item.html %}
