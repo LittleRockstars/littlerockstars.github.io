@@ -3,8 +3,10 @@ layout: product-details
 id: big-sister-birthday
 order: 8
 brand: Little Rockstars
-name: Big Sister of Birthday Girl Pink Pony T-Shirt
+name: Big Sister Birthday T-Shirt
+subtitle: Big Sister of Birthday Girl Pink Pony T-Shirt
 price: £7.95
+sale-price: 
 description: 'Little rockstars presents a perfect present for the big sister of the birthday girl with a pink glitter pony and gold glitter stars t-shirt.'
 images: 
     - '/assets/images/products/bigsister-of-bday.jpg'
@@ -13,9 +15,13 @@ colour-description: 'White t-shirt and with pink glitter pony and gold glitter s
 alt: 'big sister of the birthday girl pink pony t-shirt'
 style: [fitted]
 categories: [girls-tshirts]
-tags: [birthdays]
+tags: [birthdays, ponies]
+bullet-points:
+  - "An awesome childs or teens girls rock t-shirt for little music fans"
+  - "This quality sparkly kids rock tshirt in purple or gold lettering makes a perfect girls birthday gift or christmas present"
+  - "Perfect gift or present for any little drummer girl, music fan or little rock star"
+  - "This girls kids rock star t shirt is a great gift for your little rockers"
+  - "Available in many sizes from toddler to teens Girls fitted short sleeved tshirt"
 meta-keywords: happy birthday, horses, pony, ponies, girls, pink birthday, big sister, glitter, sparkle
 alt: 'Little rockstars - girls big sister of the birthday girl t-shirt with pink glitter pony and gold glitter stars.'
-ebay-url: https://www.ebay.co.uk/itm/Kids-Girls-Glitter-Personalised-Big-Sister-Of-The-Birthday-Girl-Pony-T-Shirt/313027015012?hash=item48e1dd3164:m:mRgebqx5iZLU22W3yju3fkQ
-amazon-url: https://www.amazon.co.uk/Little-Rockstars-Glitter-Personalised-Birthday/dp/B0892WYNKD/ref=sr_1_1?dchild=1&keywords=birthday+t-shirt&m=A1J0V53ZQGJHT4&qid=1591133221&s=merchant-items&sr=1-1
 ---

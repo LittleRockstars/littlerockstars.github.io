@@ -20,9 +20,5 @@ categories: [girls-tshirts]
 tags: [horses, ponies] 
 meta-keywords: silhouetts, ponies, pony, horses, horse riding school, equestrian, multi-coloured
 alt: 'Little rockstars - girls glitter ponies or glitter horses t-shirt'
-ebay-url: https://www.ebay.co.uk/itm/Kids-Girls-horse-riding-school-equestrian-ponies-sparkles-glitter-T-Shirt/312723801600?hash=item48cfca8600:m:mEnXygMNJ3MZBEfVuaA2nFA&var=611497777800
-amazon-url: https://www.amazon.co.uk/Little-Rockstars-Equestrian-Sparkles-Childrens/dp/B07ZHP3HKZ/ref=sr_1_1?dchild=1&keywords=ponies+t-shirt&m=A1J0V53ZQGJHT4&qid=1591133313&s=merchant-items&sr=1-1
 ---
-
-
 

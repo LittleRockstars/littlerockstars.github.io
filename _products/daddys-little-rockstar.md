@@ -18,6 +18,4 @@ categories: [baby-grows]
 tags: [fathers-day] 
 meta-keywords: girls, boys, personalised, look cool, toddler, father's day
 alt: 'Little rockstars - Daddys Little Rockstar Baby Grow'
-ebay-url: https://www.ebay.co.uk/itm/Daddys-Little-Rockstar-1st-Fathers-Day-Personalised-Baby-Grow-Bodysuit-Vest/313117902899?hash=item48e7480833:g:cDQAAOSwdzZe6R0Q
-amazon-url: 
 ---

@@ -27,8 +27,4 @@ bullet-points:
   - "Available in many sizes from toddler to teens Girls fitted short sleeved tshirt"
 meta-keywords: girl, girls, personalised, T-shirt, bikers, harley davidson, skulls, girls, cool, chopper, cute, little, lady, skull, lucky, outlaw, motorcycle, rider, pirate, rock, rocker, grunge, metal, punk, skater, skull and cross bones, girls skull t-shirt, girls skull tee, gigs, festivals, look cool, toddler, teen
 alt: "Little rockstars - girls rock t-shirt with sparkly purple glitter perfect for birthdays or as a gift or present for your little rockstars"
-ebay-url:
-amazon-url:
-pagination: 
-  enabled: true
 ---

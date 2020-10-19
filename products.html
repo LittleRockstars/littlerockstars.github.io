@@ -1,19 +1,19 @@
 ---
 layout: main
 permalink: /products
+paginate:
+  collection: products
 ---
 
 <section class="pt-30 pb-40 catalogue">
     <div class="container relative">
         <div class="row">
             <div class="col-md-12 catalogue-col right mb-50">
-
-            
                 {% include shop-filter.html %}
 
                 <div class="shop-catalogue grid-view">
                     <div class="row row-10 items-grid">
-                        {% assign stock = site.products %}
+                        {% assign stock = paginator.products %}
                         {% for product in stock %}
                             {% include product-item.html %}
                         {% endfor %}

@@ -15,6 +15,4 @@ categories: [unisex-tshirts]
 tag: [snacks, toddlers]
 meta-keywords: kids, toddlers, snacks, funny, cool
 product-alt: "toddlers, funny, "
-ebay-url:
-amazon-url:
 ---

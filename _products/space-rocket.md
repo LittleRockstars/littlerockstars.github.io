@@ -15,6 +15,4 @@ categories: [unisex-tshirts]
 tag: [robots]
 meta-keywords: kids, space, rockets, stars, planets
 product-alt: "Kids Boys Girls space rocket T-Shirt silver metallic UFO planets stars SciFi Tee"
-ebay-url:
-amazon-url:
 ---

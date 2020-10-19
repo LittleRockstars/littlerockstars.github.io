@@ -15,6 +15,4 @@ categories: [unisex-tshirts]
 tag: [robots]
 meta-keywords: kids, robot, toy, retro, 50''s style
 product-alt: 'Retro robot'
-ebay-url: https://www.ebay.co.uk/itm/Kids-Boys-Girls-Vintage-Vinyl-Toy-Retro-Robot-Fun-Sci-Fi-Science-Fair-T-Shirt/312787213756?hash=item48d3921dbc:m:mKeVAlgeGV6I2IaAy-Vl8Fw&var=611516791069
-amazon-url: https://www.amazon.co.uk/Little-Rockstars-Toddlers-Vintage-Science/dp/B0892X86Z4/ref=sr_1_3?dchild=1&keywords=robot+t-shirt&m=A1J0V53ZQGJHT4&qid=1591133414&s=merchant-items&sr=1-3
 ---

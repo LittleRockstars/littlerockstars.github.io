@@ -16,6 +16,4 @@ categories: [mens-tshirts]
 tags: [electronics, circuits, flip-flop] 
 meta-keywords: mens, electronics, flip-flop, circuits, geek, bits, logic
 alt: 'Little Rockstars is geeking out with this Mens flip-flop electronics engineers tshirt'
-ebay-url:
-amazon-url: 
 ---

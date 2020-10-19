@@ -16,6 +16,4 @@ style: [baby]
 categories: [baby-grows]
 tags: [skulls, rock, festival]
 meta-keywords: bikers, harley davidson, skulls, girls, cool, chopper, cute, little, lady, skull, lucky, outlaw, motorcycle, rider, pirate, rock, rocker, grunge, metal, punk, skater, skull and cross bones, girls skull t-shirt, girls skull tee, gigs, festivals, look cool, toddler, teen, mothers day, roses, love hearts
-ebay-url:
-amazon-url:
 ---

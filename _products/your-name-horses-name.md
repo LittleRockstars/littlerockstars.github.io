@@ -16,6 +16,4 @@ categories: [unisex-tshirts]
 tags: [birthdays]
 meta-keywords:
 alt: "Little rockstars - girls personalised horses t-shirt with metallic lettering, can be personalised with name and your horse's name"
-ebay-url:
-amazon-url:
 ---

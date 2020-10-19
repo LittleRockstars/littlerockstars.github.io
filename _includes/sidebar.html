@@ -29,11 +29,34 @@
     <div class="widget categories">
         <h3 class="widget-title uppercase">Categories</h3>
         <ul class="list-no-dividers">
-            {% for category in site.my_categories %}
+
+<!--             
+            {% for product in site.products %}
+                {% for category in product.categories %}
+                {% capture product_categories %}
+                    {% if product_categories %}
+                    {{ product_categories | join: "," }},{{ category }}
+                    {% else %}
+                    {{ category }}
+                    {% endif %}
+                {% endcapture %}
+                {% endfor %}
+            {% endfor %}
+            
+            {% assign unique_categories = product_categories | split: "," | uniq %}
+            {% for cat in unique_categories %}
+            {% assign my_cats = site.my_categories | where: "slug", cat %}
                 <li>
-                    <a href="{{ category.url }}">{{ category.name }}</a>
+                    <a href="{{ cat }}">{{ cat }}</a>
+                </li>
+            {% endfor %} -->
+
+            {% for cat in site.my_categories %}
+                <li>
+                    <a href="{{ cat.url }}">{{ cat.name }}</a>
                 </li>
             {% endfor %}
+
         </ul>
     </div>
 
