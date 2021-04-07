@@ -1,0 +1,9 @@
+{% assign product = site.products | where: "id", page.id | first %}
+
+{% include ebay-description/logo.html %}
+
+{% include ebay-description/store-information.html %}
+
+{% include ebay-description/product-details.html %}
+
+{% include product-size-chart-womens-softstyle-tank.html %}
