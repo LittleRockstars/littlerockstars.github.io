@@ -11,7 +11,7 @@ images:
   - "/assets/images/products/your-horse-name-purple.jpg"
 size-description: "Sizes to fit ages from 3-4. Sizes 3-4 years, 5-6 years, 7-8 years, 9-11 years"
 colour-description: "black, purple and pink quality t-shirt and with metallic silver lettering."
-style: [standard]
+style: [fitted]
 categories: [unisex-tshirts]
 tags: [birthdays]
 meta-keywords:
